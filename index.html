@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 26 Безопасность</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="w-full h-max flex flex-row-reverse bg-teal-100 *:px-4 *:text-teal-950 ">
+        <ul class="group">
+            <label for="mini" class="cursor-pointer block"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"></svg></label>
+            <input type="checkbox" id="mini" class="hidden peer/mini"></input>
+            <ul class="hidden peer-checked/mini:flex flex-col absolute right-2 border bg-teal-100">
+                <li class="hover:bg-teal-300 block p-1"><a href="#">На главную</a></li>
+                <li class="hover:bg-teal-300 block p-1" target="_blank"><a href="#">Ссылка на Задание</a></li>
+            </ul>
+        </ul>
+    </nav>
+    <div id="app" class="w-screen">
+        <nav class="flex gap-4 bg-teal-500 w-max px-4 border-t-4 border-teal-900">
+            <ul>
+                <li><a href="#">Скачать</a></li>
+                <li><a href="#">Документация</a></li>
+                <li><a href="#">Библиотека</a></li>
+                <li><a href="#">Сообщество</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Безопасность</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
