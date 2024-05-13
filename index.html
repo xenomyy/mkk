@@ -1,55 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Задание 26 Безопасность</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style/main.css">
 </head>
-<body>
-    <nav class="w-full h-max flex flex-row-reverse bg-teal-100 *:px-4 *:text-teal-950 ">
-        <ul class="group">
-            <label for="mini" class="cursor-pointer block"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"></svg></label>
-            <input type="checkbox" id="mini" class="hidden peer/mini"></input>
-            <ul class="hidden peer-checked/mini:flex flex-col absolute right-2 border bg-teal-100">
-                <li class="hover:bg-teal-300 block p-1"><a href="#">На главную</a></li>
-                <li class="hover:bg-teal-300 block p-1" target="_blank"><a href="#">Ссылка на Задание</a></li>
-            </ul>
-        </ul>
-    </nav>
-    <div id="app" class="w-screen">
-        <nav class="flex gap-4 bg-teal-500 w-max px-4 border-t-4 border-teal-900">
-            <ul>
-                <li><a href="#">Скачать</a></li>
-                <li><a href="#">Документация</a></li>
-                <li><a href="#">Библиотека</a></li>
-                <li><a href="#">Сообщество</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Безопасность</a></li>
+
+<body class="ns_grid_template overflow-x-hidden">
+    <header class="h-20 px-4 flex items-center justify-between">
+        <h2 class="text-3xl uppercase text-teal-400"><span class="text-teal-600">aaa</span>aaaaa</h2>
+        <nav>
+            <ul class="flex text-xl relative">
+                <li><a class="p-4 border-b-2 text-teal-950 hover:text-teal-600 border-teal-300 hover:border-teal-600" href="#">Блог</a></li>
+                <li class="relative group">
+                    <a class="p-4 border-b-2 text-teal-950 hover:text-teal-600 border-teal-300 hover:border-teal-600" href="#">Домашние задания<span class="inline-block rotate-90 ml-2">›</span></a>
+                    <ul class="text-teal-950 w-full h-0 group-hover:h-max mt-[15px] overflow-hidden absolute bg-teal-300 divide-y divide-teal-400 z-10">
+                        <li><a class="block p-2 hover:text-teal-50 hover:bg-teal-600" href="#">Часть 1</a></li>
+                        <li><a class="block p-2 hover:text-teal-50 hover:bg-teal-600" href="#">Часть 2</a></li>
+                        <li><a class="block p-2 hover:text-teal-50 hover:bg-teal-600" href="#">Часть 3</a></li>
+                    </ul>
+                </li>
+                <li><a class="p-4 border-b-2 text-teal-950 hover:text-teal-600 border-teal-300 hover:border-teal-600" href="#">Портфолио</a></li>
+                <li><a class="p-4 border-b-2 text-teal-950 hover:text-teal-600 border-teal-300 hover:border-teal-600" href="#">Обо мне</a></li>
+                <li><a class="p-4 border-b-2 text-teal-950 hover:text-teal-600 border-teal-300 hover:border-teal-600" href="#">Навыки</a></li>
+                <li><a class="p-4 border-b-2 text-teal-950 hover:text-teal-600 border-teal-300 hover:border-teal-600" href="#">Контакты</a></li>
             </ul>
         </nav>
-    </div>
+    </header>
+
+    <main class="px-4">
+        <h2 class="text-2xl font-medium">Блогu</h2>
+        <div class="flex flex-wrap gap-4 *:w-56">
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+            <div class="h-80 bg-teal-800"></div>
+        </div>
+    </main>
+
     <aside class="px-4">
-        <div class="p-4 flex flex-col gap-4 bg-teal-50">
-            <h2 class="text-xl font-medium">asdasdasda</h2>
-            <h3 class="text-lg font-medium">asdasdasd</h3>
-            <div class="bg-teal-500 p-4 box-border *:flex flex-wrap *:justify-center *:items-center gap-4 *:w-40 *:h-8 *:bg-teal-500">
-                <a href="./char1/01/index.html">Задание ...</a>
-                <a href="./char1/01/index.html">Задание ...</a>
-                <a href="./char1/01/index.html">Задание ...</a>
-                <a href="./char1/01/index.html">Задание ...</a>
-                <a href="./char1/01/index.html">Задание ...</a>
-                <a href="./char1/01/index.html">Задание ...</a>
-                <a href="./char1/01/index.html">Задание ...</a>
-                <a href="./char1/01/index.html">Задание ...</a>
-                <a href="./char1/01/index.html">Задание ...</a>
-                <a href="./char1/01/index.html">Задание ...</a>
-                <a href="./char1/01/index.html">Задание ...</a>
-                <a href="./char1/01/index.html">Задание ...</a>
+        <div class="p-4 flex flex-col gap-4 bg-teal-50 ">
+            <h2 class="text-xl font-medium">Домашние задания</h2>
+            <h3 class="text-lg font-medium">Часть 2</h3>
+            <div class="bg-teal-500 p-12 pr-0 box-border
+                        flex flex-wrap gap-4
+                        *:w-40 *:h-8 *:bg-teal-300 *:flex *:justify-center *:items-center
+                        *:text-teal-950 hover:*:brightness-125">
+                <a href="./char2/01/">Задание 1</a>
+                <a href="./char2/02/">Задание 2</a>
+                <a href="./char2/03/">Задание 3</a>
+                <a href="./char2/04/">Задание 4</a>
+                <a href="./char2/05/">Задание 5</a>
+                <a href="./char2/06/">Задание 6</a>
+                <a href="./char2/17/">Задание 17</a>
+                <a href="./char2/22/">Задание 22</a>
+                <a href="./char2/23/">Задание 23</a>
+                <a href="./char2/24/">Задание 24</a>
+                <a href="./char2/25/">Задание 25</a>
+                <a href="./char2/26/">Задание 26</a>
+                <a href="./char2/27/">Задание 27</a>
+                <a href="./char2/28/">Задание 28</a>
+                <a href="./char2/29/">Задание 29</a>
+                <a href="./char2/33/">Задание 33</a>
+                <a href="./char2/38/">Задание 38</a>
+                <a href="./char2/78/">Задание 78</a>
             </div>
         </div>
     </aside>
+
+    <footer class="h-20 my-20 px-4 flex items-center justify-between bg-teal-950 text-teal-100">
+        <h3>© 2024</h3>
+    </footer>
+
 </body>
+
 </html>
